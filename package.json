@@ -11,5 +11,10 @@
   "dependencies": {
     "@angular/core": "^2.0.0-rc.7",
     "systemjs": "^0.19.38"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1",
+    "superstatic": "^4.0.3"
   }
 }
