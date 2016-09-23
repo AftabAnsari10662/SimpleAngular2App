@@ -3,8 +3,12 @@
     <title> Angular2 App</title>
 
     <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/typescript/lib/typescript.js"></script>
     <script>
-            System.import("app/app");
+        System.config({
+            transpiler:"typescript"
+        })
+            System.import("app/main.ts");
     </script>
    
 </head>
