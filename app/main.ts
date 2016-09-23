@@ -1,5 +1,6 @@
-import {App} from "./app.ts";
+import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-let app = new App();
-app.sayHello();
-alert("Greeting!!");
+import { AppModule } from "./app.module.ts";
+const platform = platformBrowserDynamic();
+
+platform.bootstrapModule(AppModule);
